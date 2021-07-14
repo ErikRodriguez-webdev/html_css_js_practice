@@ -1,0 +1,49 @@
+/* CSS RESET */
+* {
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Zen Loop", cursive;
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 3rem;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 2.3rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+li {
+  font-size: 1.6rem;
+}
+
+.grid {
+  /* border: 1px solid green; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid ul {
+  /* border: 1px solid blue; */
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.grid ul li {
+  /* border: 1px solid red; */
+  list-style: none;
+}
